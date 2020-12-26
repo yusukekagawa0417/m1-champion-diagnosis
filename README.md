@@ -1,8 +1,8 @@
-# m1-champion-diagnosis
+# M-1チャンピオン診断
 ## 環境構築手順
 本リポジトリをpullした後、コンテナを立上げます。
 ```
-docker-compose up -d
+[mac] $ docker-compose up -d
 ```
 appコンテナに入ります。
 ```
