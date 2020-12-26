@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// TOP
 Route::get('/', function () {
-    return view('welcome');
+    return view('top.index');
 });
+
+// 質問
+Route::get('/question/{id}', 'QuestionController@show')->name('question');
+
+// 結果
+Route::get('/result/{id}', 'ResultController@show')->name('result');
