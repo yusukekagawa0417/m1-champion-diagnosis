@@ -23,8 +23,3 @@ Route::get('/question/{id}', 'QuestionController@show')->name('question');
 
 // 結果
 Route::get('/result/{id}', 'ResultController@show')->name('result');
-
-// TEST
-Route::get('/test', function () {
-    return view('test');
-});
