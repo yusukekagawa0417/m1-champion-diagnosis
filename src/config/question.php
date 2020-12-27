@@ -1,5 +1,5 @@
 <?php
-
+// test thank you Kagawa-san
 return [
     '1' => [
         // ビューに表示させる内容
