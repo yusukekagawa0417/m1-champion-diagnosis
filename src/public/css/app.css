@@ -70,3 +70,21 @@ a.btn-solid-gold:hover {
   border-bottom: 7px solid #987c1e;
   border-left: 4px solid #ffed8b;
 }
+
+/* question */
+a.btn-border {
+  color: white;
+  border: 2px solid white;
+  border-radius: 0;
+  background: black;
+}
+
+a.btn-yes:hover {
+  color: white;
+  background: repeating-linear-gradient(0deg, #B67B03 0.1em, #DAAF08 0.2em, #FEE9A0 0.3em, #DAAF08 0.4em, #B67B03 0.5em); 
+}
+
+a.btn-no:hover {
+  color: white;
+  background: repeating-linear-gradient(0deg, #757575 0.1em, #9E9E9E 0.2em, #E8E8E8 0.3em, #9E9E9E 0.4em, #757575 0.5em); 
+}
