@@ -1,13 +1,22 @@
 @extends('layouts.app')
 @section('title', "結果：" . config('app.name'))
 @section('content')
-    <div>
-        <h1>結果</h1>
-        <div>
+    <div class="container">
+        <div class="box">
+            <h1>RESULT</h1>
+    </div>
+    <div class="box">
+        <div class="result-top">
             {{ $result['name'] }}
         </div>
+    </div>
+    <div class="box">
         <div>
             {{ $result['description'] }}
         </div>
+    </div>
+    <div class="box">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 @endsection
