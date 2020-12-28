@@ -6,7 +6,9 @@
             <h1>QUESTION</h1>
         </div>
         <div class="box">
-            {{ $question['content'] }}
+            <div class="question-content">
+                {{ $question['content'] }}
+            </div>
         </div>
         <div class="box">
             <a href="{{ route($question['answer']['yes']['path'], ['id' => $question['answer']['yes']['id']])}}" class="btn btn-border btn-yes">はい</a>

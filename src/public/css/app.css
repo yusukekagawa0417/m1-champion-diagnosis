@@ -78,6 +78,26 @@ a.btn-solid-gold:hover {
 }
 
 /* question */
+.question-content {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 17px 10px;
+  width: 100%;
+  font-size: 16px;
+  background: #eba404;
+}
+
+.question-content:before {
+	content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #eba404;
+}
+
 a.btn-border {
   color: white;
   border: 2px solid white;
