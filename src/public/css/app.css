@@ -51,6 +51,12 @@ button.btn {
 }
 
 /* TOP */
+.top-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
+}
+
 a.btn-solid-gold {
   color: #b1921b;
   border-right: 4px solid #cea82c;

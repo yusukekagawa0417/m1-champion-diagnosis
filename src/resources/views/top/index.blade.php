@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="box">  
-            <h1>M-1チャンピオン診断<h1>
+            <h1 class="top-title">M-1チャンピオン診断</h1>
         </div>
         <div class="box">
             ＜説明＞
