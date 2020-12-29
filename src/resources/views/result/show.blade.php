@@ -7,19 +7,22 @@
     </div>
     <div class="box">
         <div class="result-name-outer">
-            <div class="result-name-inner">
+            <div class="result-name-inner1">
+                <img src="{{ asset('/image/crown.png') }}" alt="crown">
+            </div>
+            <div class="result-name-inner2">
                 {{ $result['name'] }}
             </div>
         </div>
     </div>
     <div class="box">
-        <div>
+        <div class="result-description">
             {{ $result['description'] }}
         </div>
     </div>
     <div class="box">
         <div class="result-twitter">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large" data-text="あなたは「{{ $result['name'] }}」タイプ！｜{{ config('app.name') }}">Tweet</a>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large" data-text="あなたは「{{ $result['name'] }}」タイプ！｜{{ config('app.name') }}" data-url="https://google.co.jp">Tweet</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="result-return-top">
