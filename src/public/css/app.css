@@ -23,6 +23,13 @@ body {
   font-family: "游ゴシック体","メイリオ",Meiryo,Arial,"Yu Gothic",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN";
 }
 
+.layout {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 235px;
+  box-sizing: border-box;
+}
+
 .container {
   color: white;
 }
@@ -184,4 +191,9 @@ a.btn-no:hover {
 
 .result-return-top {
   margin-top: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
