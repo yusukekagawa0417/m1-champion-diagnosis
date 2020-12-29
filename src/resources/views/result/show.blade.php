@@ -17,7 +17,7 @@
     </div>
     <div class="box">
         <div class="result-description">
-            {{ $result['description'] }}
+          {!! nl2br(e($result['description'])) !!}
         </div>
     </div>
     <div class="box">
