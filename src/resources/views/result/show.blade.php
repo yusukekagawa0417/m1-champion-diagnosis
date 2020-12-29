@@ -10,7 +10,7 @@
                 <div class="result-name-inner1">
                     <img src="{{ asset('/image/crown.png') }}" alt="crown">
                 </div>
-                <div class="result-name-inner2">
+                <div class="result-name-inner2 result-color-{{ $result['color'] }}">
                     {{ $result['name'] }}
                 </div>
             </div>

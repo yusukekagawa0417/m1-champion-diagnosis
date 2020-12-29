@@ -149,7 +149,7 @@ a.btn-no:hover {
 
 .result-name-outer {
   text-align: center;
-  animation: rotate-anime 3s linear infinite;
+  animation: rotate-anime 7s linear infinite;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -167,21 +167,35 @@ a.btn-no:hover {
   font-family: NikkyouSans-B6aV;
 
   writing-mode: vertical-rl;
-  background-color: red;
   border-top: 4px solid #cea82c;
   border-right: 4px solid #b1921b;
   border-bottom: 4px solid #987c1e;
   border-left: 4px solid #ffed8b;
   padding: 1rem;
   font-size: 2rem;
-  color: red;
   text-shadow: 1px 1px 0 white,-1px 1px 0 white,1px -1px 0 white,-1px -1px 0 white;
+}
+
+.result-color-red {
+  background-color: red;
+  color: red;
+}
+
+.result-color-blue {
+  background-color: blue;
+  color: blue;
+}
+
+.result-color-yellow {
+  background-color: #FFCC00;
+  color: #CC6600;
 }
 
 .result-description {
   width: 80%;
   margin: 0 auto;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  text-align: left;
 }
 
 .result-twitter {
