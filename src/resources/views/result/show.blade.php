@@ -3,11 +3,13 @@
 @section('content')
     <div class="container">
         <div class="box">
-            <h1>RESULT</h1>
+            <h1 class="result-title">J U D G E</h1>
     </div>
     <div class="box">
-        <div class="result-top">
-            {{ $result['name'] }}
+        <div class="result-name-outer">
+            <div class="result-name-inner">
+                {{ $result['name'] }}
+            </div>
         </div>
     </div>
     <div class="box">
