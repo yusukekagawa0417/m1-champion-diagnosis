@@ -4,6 +4,7 @@
     <body>
         <div class="layout">
             @yield('content')
+            @include('shared.footer')
         </div>
     </body>
 </html>
