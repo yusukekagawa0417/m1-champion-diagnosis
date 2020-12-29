@@ -6,7 +6,7 @@
             <h1 class="top-title">{{ config('app.name') }}</h1>
         </div>
         <div class="box">
-            <h2 class="top-description">あなたが回答したいくつかの質問結果からあなたのパーソナリティがどのM1王者のタイプか分かる性格診断です。</h2>
+            <h2 class="top-description">{{ __('messages.app_description') }}</h2>
         </div>
         <div class="box">
             <a href="{{ route('question', ['id' => '1']) }}" class="btn btn-solid-gold">エントリー</a>
