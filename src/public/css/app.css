@@ -28,13 +28,12 @@ body {
   min-height: 100vh;
   position: relative;
   margin: 0 auto;
-  padding-bottom: 235px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width:768px) { 
   .layout {
-    padding-bottom: 214px;
+    padding-bottom: 250px;
   }
 }
 
