@@ -22,5 +22,8 @@
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large" data-text="あなたは「{{ $result['name'] }}」タイプ！｜{{ config('app.name') }}">Tweet</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
+        <div class="result-return-top">
+            <a href="{{ url('/') }}" class="btn btn-solid-gold">◀︎ 再挑戦</a>
+        </div>
     </div>
 @endsection

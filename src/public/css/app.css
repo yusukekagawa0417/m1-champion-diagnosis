@@ -148,3 +148,7 @@ a.btn-no:hover {
   display: inline-block;
   text-align: center;
 }
+
+.result-return-top {
+  margin-top: 50px;
+}
