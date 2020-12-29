@@ -5,6 +5,11 @@
   box-sizing: inherit;
 }
 
+@font-face {
+	font-family: NikkyouSans-B6aV;
+  src: url('/fonts/NikkyouSans-B6aV.ttf');
+}
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -52,6 +57,7 @@ button.btn {
 
 /* TOP */
 .top-title {
+  font-family: NikkyouSans-B6aV;
   font-size: 3rem;
   font-weight: bold;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
@@ -79,6 +85,7 @@ a.btn-solid-gold:hover {
 
 /* question */
 .question-title {
+  font-family: NikkyouSans-B6aV;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px orange, 0 0 150px orange;
@@ -123,6 +130,7 @@ a.btn-no:hover {
 
 /* result */
 .result-title {
+  font-family: NikkyouSans-B6aV;
   font-size: 3rem;
   font-weight: bold;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px fuchsia, 0 0 70px fuchsia, 0 0 80px fuchsia, 0 0 100px fuchsia, 0 0 150px fuchsia;
@@ -145,6 +153,8 @@ a.btn-no:hover {
 }
 
 .result-name-inner2 {
+  font-family: NikkyouSans-B6aV;
+
   writing-mode: vertical-rl;
   background-color: red;
   border-top: 4px solid #cea82c;
