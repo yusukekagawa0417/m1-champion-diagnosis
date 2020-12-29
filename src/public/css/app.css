@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: black;
+  font-family: "游ゴシック体","メイリオ",Meiryo,Arial,"Yu Gothic",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN";
 }
 
 .container {
