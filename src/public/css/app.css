@@ -12,14 +12,13 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   background-color: black;
   font-family: "游ゴシック体","メイリオ",Meiryo,Arial,"Yu Gothic",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN";
 }
 
 .container {
-  padding-top: 50px;
   color: white;
 }
 
@@ -145,7 +144,7 @@ a.btn-no:hover {
   align-items: center;
   background-color: red;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: red;
   text-shadow: 1px 1px 0 white,-1px 1px 0 white,1px -1px 0 white,-1px -1px 0 white;
 }
