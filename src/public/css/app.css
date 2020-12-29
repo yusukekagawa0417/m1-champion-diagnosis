@@ -63,6 +63,10 @@ button.btn {
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
 }
 
+.top-description {
+  font-size: 1.6rem;
+}
+
 a.btn-solid-gold {
   color: #b1921b;
   border-right: 4px solid #cea82c;
@@ -170,6 +174,7 @@ a.btn-no:hover {
 .result-description {
   width: 80%;
   margin: 0 auto;
+  font-size: 1.6rem;
 }
 
 .result-twitter {
