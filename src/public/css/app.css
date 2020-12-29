@@ -123,9 +123,9 @@ a.btn-no:hover {
 
 /* result */
 .result-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px yellow, 0 0 70px yellow, 0 0 80px yellow, 0 0 100px yellow, 0 0 150px yellow;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px pink, 0 0 70px pink, 0 0 80px pink, 0 0 100px pink, 0 0 150px pink;
 }
 
 .result-name-outer {
@@ -142,4 +142,9 @@ a.btn-no:hover {
   font-size: 1.5rem;
   color: red;
   text-shadow: 1px 1px 0 white,-1px 1px 0 white,1px -1px 0 white,-1px -1px 0 white;
+}
+
+.result-twitter {
+  display: inline-block;
+  text-align: center;
 }
