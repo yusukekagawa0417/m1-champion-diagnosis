@@ -7,13 +7,16 @@
     </div>
     <div class="box">
         <div class="result-name-outer">
-            <div class="result-name-inner">
+            <div class="result-name-inner1">
+                <img src="{{ asset('/image/crown.png') }}" alt="crown">
+            </div>
+            <div class="result-name-inner2">
                 {{ $result['name'] }}
             </div>
         </div>
     </div>
     <div class="box">
-        <div>
+        <div class="result-description">
             {{ $result['description'] }}
         </div>
     </div>
