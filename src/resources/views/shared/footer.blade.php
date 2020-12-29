@@ -1,3 +1,3 @@
 <footer>
-    <img src="{{ asset('/image/fire.jpg') }}" alt="fire">
+    <img src="{{ asset('/image/fire.jpg') }}" alt="fire">
 </footer>
