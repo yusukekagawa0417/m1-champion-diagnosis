@@ -11,8 +11,18 @@
             </div>
         </div>
         <div class="box">
-            <a href="{{ route($question['answer']['yes']['path'], ['id' => $question['answer']['yes']['id']])}}" class="btn btn-border btn-yes">はい</a>
-            <a href="{{ route($question['answer']['no']['path'], ['id' => $question['answer']['no']['id']]) }}" class="btn btn-border btn-no">いいえ</a>
+            @if (isset( $question['answer']['yes'] ))
+                <a href="{{ route($question['answer']['yes']['path'], ['id' => $question['answer']['yes']['id']])}}" 
+                   class="btn btn-border btn-yes">
+                      はい
+                </a>
+            @endif
+            @if (isset( $question['answer']['no'] ))
+            <a href="{{ route($question['answer']['no']['path'], ['id' => $question['answer']['no']['id']]) }}" 
+               class="btn btn-border btn-no">
+                  いいえ
+            </a>
+            @endif
         </div>
     </div>
 @endsection
