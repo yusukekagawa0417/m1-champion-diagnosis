@@ -18,10 +18,10 @@
                 </a>
             @endif
             @if (isset( $question['answer']['no'] ))
-            <a href="{{ route($question['answer']['no']['path'], ['id' => $question['answer']['no']['id']]) }}" 
-               class="btn btn-border btn-no">
-                  いいえ
-            </a>
+                <a href="{{ route($question['answer']['no']['path'], ['id' => $question['answer']['no']['id']]) }}" 
+                  class="btn btn-border btn-no">
+                      いいえ
+                </a>
             @endif
         </div>
     </div>
