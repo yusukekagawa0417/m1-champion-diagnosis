@@ -35,7 +35,7 @@ body {
 }
 
 .box {
-  padding: 20px 20px 0 20px;
+  padding: 20px;
 }
 
 .btn,
@@ -127,6 +127,9 @@ a.btn-border {
   border: 2px solid white;
   border-radius: 0;
   background: black;
+  width: 35%;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 a.btn-yes:hover {
@@ -207,6 +210,7 @@ a.btn-no:hover {
   margin-top: 50px;
 }
 
+/* footer */
 footer {
   position: absolute;
   bottom: 0;
