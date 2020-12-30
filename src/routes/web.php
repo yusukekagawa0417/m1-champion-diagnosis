@@ -23,3 +23,13 @@ Route::get('/question/{id}', 'QuestionController@show')->name('question');
 
 // 結果
 Route::get('/result/{id}', 'ResultController@show')->name('result');
+
+// お問い合わせ
+Route::get('/contact', function () {
+    return view('contact.index');
+});
+
+// プライバシーポリシー
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy.index');
+});

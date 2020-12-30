@@ -2,8 +2,8 @@
 @section('title', config('app.name'))
 @section('content')
     <div class="container">
-        <div class="box">  
-            <h1 class="top-title">{{ config('app.name') }}</h1>
+        <div class="box">
+            @include('shared.top-title')
         </div>
         <div class="box">
             <h2 class="top-description">{{ __('messages.app_description') }}</h2>

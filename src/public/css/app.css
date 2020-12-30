@@ -21,9 +21,6 @@ body {
   text-align: center;
   background-color: black;
   font-family: "游ゴシック体","メイリオ",Meiryo,Arial,"Yu Gothic",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN";
-}
-
-.layout {
   max-width: 540px;
   min-height: 100vh;
   position: relative;
@@ -33,13 +30,13 @@ body {
 
 @media screen and (max-width:768px) { 
   .layout {
-    padding-bottom: 250px;
+    padding-bottom: 354px;
   }
 }
 
 @media screen and (min-width:768px) { 
   .layout {
-    padding-bottom: 360px;
+    padding-bottom: 464px;
   }
 }
 
@@ -81,6 +78,11 @@ button.btn {
   font-size: 3rem;
   font-weight: bold;
   text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px red, 0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
+}
+
+.top-title-link {
+  color: white;
+  text-decoration: none;
 }
 
 .top-description {
@@ -227,4 +229,19 @@ a.btn-no:hover {
 footer {
   position: absolute;
   bottom: 0;
+}
+
+.footer-link{
+  color: white;
+  font-size: 1.1rem;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.privacy-policy,
+.contact {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  text-align: left;
 }
