@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', "質問：" . config('app.name'))
+@section('title', "質問|" . $question['content'] . "|" . config('app.name'))
 @section('content')
     <div class="container">
         <div class="box">  
