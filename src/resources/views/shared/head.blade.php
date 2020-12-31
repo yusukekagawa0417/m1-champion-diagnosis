@@ -8,6 +8,7 @@
 
       gtag('config', 'G-ERKHRPRV81');
     </script>
+    <script data-ad-client="ca-pub-8193636661089111" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

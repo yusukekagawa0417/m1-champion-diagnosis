@@ -37,5 +37,15 @@
                 <a href="{{ url('/') }}" class="btn btn-solid-gold">◀︎ 再挑戦</a>
             </div>
         </div>
+        <div class="box">
+            <div class="amazon-associate">
+                {!! $result['amazon_tag_dvd'] !!}
+            </div>
+        </div>
+        <div class="box">
+            <div class="amazon-associate">
+                {!! $result['amazon_tag_prime'] !!}
+            </div>
+        </div>
     </div>
 @endsection
