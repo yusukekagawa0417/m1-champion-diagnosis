@@ -206,6 +206,23 @@ return [
         'description' => 'すみません、性格とかはわからないのですが
         ラッキーアイテムはzoomです。',
     ],
+
+    '15' => [
+        'name' => '錦鯉　長谷川',
+        'color' => 'yellow',
+        'amazon_tag_dvd' => '<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07QBPK3BN/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07QBPK3BN&linkCode=as2&tag=m1championdia-22&linkId=460e42534e84e73d81714a68d244b37d"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07QBPK3BN&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=m1championdia-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=m1championdia-22&l=am2&o=9&a=B07QBPK3BN" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />',
+        'amazon_tag_prime' => '<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07SFKNV64/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07SFKNV64&linkCode=as2&tag=m1championdia-22&linkId=047cf32efcf515f889e7d6437dd650df"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07SFKNV64&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=m1championdia-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=m1championdia-22&l=am2&o=9&a=B07SFKNV64" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />',
+        'description' => 'みんなから愛されるあなたは錦鯉長谷川タイプです。
+        涙をながすまさのりさん、優しく声をかける渡辺さん
+        個人的には普段あまり映画やドラマで泣いたりしないのですが
+        苦労が報われた二人の姿を見て気づいたら涙が流れていました
+        錦鯉のお二人　本当におめでとうございます！！
+
+        でもこの診断をしているあなたはM1も別に優勝してないただのハゲです。
+        お疲れ
+        ',
+    ],
+
 ];
 
 
@@ -224,3 +241,4 @@ return [
 // １２　ブラックマヨネーズ　小杉　赤
 // １３　チュートリアル　徳井　青
 // １４　霜降り明星　せいや　青
+// １５　錦鯉　長谷川　黄
